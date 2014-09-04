@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<!-- -->
+
+<hibernate-mapping package="bean">
+
+	<!-- 设置实体类与数据库中表的对应关系 -->
+	<class name="User" table="user">
+
+		<id name="id" type="java.lang.Long">
+			<column name="id"></column>
+			<!-- 将逐渐设置为自增 -->
+			<generator class="increment"></generator>
+		</id>
+
+		<property name="userName" type="java.lang.String" not-null="true">
+			<column name="username"></column>
+		</property>
+
+		<property name="userPwd" type="java.lang.String">
+			<column name="password"></column>
+		</property>
+	</class>
+
+</hibernate-mapping>
+

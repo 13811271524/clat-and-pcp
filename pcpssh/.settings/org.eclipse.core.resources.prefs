@@ -1,0 +1,19 @@
+#Sat Aug 30 17:28:55 CST 2014
+eclipse.preferences.version=1
+encoding//WebRoot/Web/common/js/easyui/js/easyui-lang-zh_CN.js=UTF-8
+encoding//WebRoot/Web/common/js/easyui/validate/easyui_validate.js=UTF-8
+encoding//WebRoot/Web/common/js/main.js=UTF-8
+encoding//WebRoot/Web/common/js/validate/messages_cn.js=UTF-8
+encoding//WebRoot/Web/common/js/validate/tools.js=UTF-8
+encoding//WebRoot/Web/login/js/code.js=UTF-8
+encoding//WebRoot/Web/login/js/loginPage.js=UTF-8
+encoding//WebRoot/Web/usermanage/js/uploadhistory.js=UTF-8
+encoding//WebRoot/Web/usermanage/js/user.js=UTF-8
+encoding//src/action/datalist/AddDatalistAction.java=UTF-8
+encoding//src/action/datalist/QueryDatalistAction.java=UTF-8
+encoding//src/action/login/LoginAction.java=UTF-8
+encoding//src/action/user/QueryUserAction.java=UTF-8
+encoding//src/bean/Datalist.java=UTF-8
+encoding//src/bean/User.java=UTF-8
+encoding//src/dao/DatalistDao.java=UTF-8
+encoding//src/dao/UserDao.java=UTF-8

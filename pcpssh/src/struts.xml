@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.action.extension" value="action" />
+	<constant name="struts.multipart.saveDir" value="/tmp" />
+	<package name="struts2" namespace="/" extends="json-default">
+		<!-- 登录 -->
+		<action name="login" class="action.login.LoginAction">
+			<result type="json"></result>
+		</action>
+		<!-- 重新登录 -->
+		<action name="toLoginPage" class="action.login.LoginAction"
+			method="goLoginpage">
+			<result>/Web/login/page/LoginPage.jsp</result>
+		</action>
+		<!-- 显示所有用户 -->
+		<action name="toUserPage" class="action.login.LoginAction"
+			method="goUserPage">
+			<result>/Web/usermanage/page/user.jsp</result>
+		</action>
+		<!--查询所有用户 -->
+		<action name="queryAllUserAction" class="action.user.QueryUserAction"
+			method="listUser">
+			<result type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+		<!--查询所有数据 -->
+		<action name="queryAllDatalistAction" class="action.datalist.QueryDatalistAction"
+			method="listDatalist">
+			<result type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+		<!--添加数据 -->
+		<action name="addDatalist" class="action.datalist.AddDatalistAction"
+			method="addDatalist">
+			<result type="json"></result>
+		</action>
+		<!-- 删除数据 -->
+		<action name="delDatalist" class="action.datalist.DelDatalistAction"
+			method="deleteDatalist">
+			<result type="json"></result>
+		</action>
+
+	</package>
+</struts>

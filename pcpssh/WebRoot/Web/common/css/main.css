@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td
+	{
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+/*顶部*/
+.top {
+	width: auto;
+	height: 70px;
+	background: url("../../login/images/topbg02.png") repeat-x;
+}
+
+.topbg01 {
+	background: url("../../login/images/topbg01.png") no-repeat;
+	width: 100%;
+	height: 70px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.xinxibox {
+	width: 280px;
+	height: 70px;
+	float: right;
+	margin-top: 0;
+}
+
+.xinxilan {
+	width: 200px;
+	height: 25px;
+	background: url("../../login/images/icobox_center.png") repeat-x;
+	margin-top: 0;
+	margin-left: 27px;
+	line-height: 25px;
+	font-size: 13px;
+	color: #333333;
+}
+
+.xinxilan s {
+	width: 27px;
+	height: 25px;
+	background: url("../../login/images/icobox_left.png") no-repeat;
+	float: left;
+	margin-left: -27px;
+}
+
+.xinxilan b {
+	width: 27px;
+	height: 25px;
+	background: url("../../login/images/icobox_right.png") no-repeat;
+	float: right;
+	margin-right: -27px;
+}
+
+.xinxilan img {
+	margin-left: 8px;
+	margin-right: 5px;
+	margin-top: 2px;
+	float: left;
+}
+
+.xinxilan a {
+	line-height: 25px;
+	float: left;
+}
+
+.welcometext {
+	width: 280px;
+	height: 25px;
+	margin-top: 22px;
+	line-height: 25px;
+	font-size: 13px;
+}
+
+.leftico01 {
+	width:16px;
+	height:16px;
+	background:url(../../login/images/ico04.png) no-repeat;
+	float:left;
+	margin-left:10px;
+	margin-top:3px;
+}
+
+.easyui-accordion a{
+	font-size:13px;
+	line-height:25px;
+	font-family:"微软雅黑", Arial, Helvetica, sans-serif;
+	color:black;
+}
